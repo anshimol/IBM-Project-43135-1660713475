@@ -1,20 +1,24 @@
-% extends 'base.html'%
+% extends 'base.html' %
 
 
 {% block head%}
-| | <title></title> 
-{% endblock %} 
+      <title></title>
+{% endblock %}     
 
-{% block body%} 
-<h1>this is a heading</h1> 
-<p>Hello, form Home page</p> 
-{% endblock %} 
-    <h1>Signin Page</h1> 
-    
-    <form action="/signin" method="POST"> 
+{% block body%}
+<h1>this is a heading</h1>
+<p>Hello, form Home page</p>
+{% endblock %}
+    <h1>Signin Page</h1>
+
+    <form action="/signin" method="POST">
+
         <label>Email</label><br>
-        <input type="email" name="email"><br><br 
-        <label>password</label><br> 
-        <input type="password" name="name"><br><br> 
-        <input type="submit"> 
+        <input type="email" name="email"><br><br
+        <label>password</label><br>
+        <input type="password" name="name"><br><br>
+        <input type="submit">
     </form>
+
+
+
